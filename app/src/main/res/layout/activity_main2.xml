@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sparshgupta.taskit.Main2Activity">
+
+    <TextView
+        android:text="What's the Task? "
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+    
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_below="@+id/textView"
+        android:textColor="#000000"
+        android:id="@+id/taskName"/>
+
+    <ImageView
+        android:layout_below="@+id/taskName"
+        android:layout_marginTop="10dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/calendergreybig"
+        android:id="@+id/calenderImage"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:padding="0dp"
+        android:id="@+id/taskDate"
+        android:text="27 Feb 1997"
+        android:layout_below="@+id/taskName"
+        android:layout_toRightOf="@+id/calenderImage"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/calenderImage"
+        android:layout_marginTop="20dp"
+        android:id="@+id/clockImage"
+        android:background="@drawable/time"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:id="@+id/taskTime"
+        android:layout_toRightOf="@+id/clockImage"
+        android:layout_below="@+id/taskDate"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textColor="#000" 
+        android:text="6:30 PM"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_toRightOf="@+id/taskTime"
+        android:layout_below="@+id/taskDate"
+        android:layout_marginTop="21dp"
+        android:text="Alarm"
+        android:textSize="17sp"
+        android:layout_marginLeft="105dp"
+        android:id="@+id/reminderTextView"
+        android:textColor="#000"/>
+    
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskDate"
+        android:layout_toRightOf="@+id/reminderTextView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/switchReminder"/>
+     
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_below="@+id/switchReminder"
+        android:layout_marginTop="10dp"
+        android:id="@+id/line"></View>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="10dp"
+        android:id="@+id/notesEditText"
+        android:background="@drawable/bg"
+        android:gravity="left|top"
+        android:textColor="#000"
+        android:textSize="17sp"
+        android:padding="1dp"
+        android:hint = "Description (if any)"/>
+
+
+
+</RelativeLayout>

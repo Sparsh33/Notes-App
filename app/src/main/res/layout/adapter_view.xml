@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleSpace"
+        android:textSize="17sp"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center_vertical|left" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/dateArea"
+            android:textSize="15sp"
+            android:gravity="center_vertical|left"
+            android:textColor="#283593"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/timeArea"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:gravity="center_vertical|left"
+            android:textColor="#283593"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminderShowTextView"
+            android:layout_marginLeft="50dp"
+            android:text="ALARM OFF"
+            android:textColor="#283593"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="8dp"
+        android:textColor="#BDBDBD"
+        android:id="@+id/descriptionTextView"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#BDBDBD"
+        android:layout_height="1dp">
+    </View>
+
+</LinearLayout>
