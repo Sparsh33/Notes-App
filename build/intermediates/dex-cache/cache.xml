@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/sparshgupta/.gradle/caches/modules-2/files-2.1/com.michaelpardo/activeandroid/3.1.0-SNAPSHOT/4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08/activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="/Users/sparshgupta/Desktop/Notes-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/activeandroid-3.1.0-SNAPSHOT_65ebcd478759e625369d104e06956b701b3ff788/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sparshgupta/Desktop/Notes-App/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d09f431ea8b15737208799e17fb625fef1fb20ba">
+        <dex dex="/Users/sparshgupta/Desktop/Notes-App/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8f36f0d3197208eb2591a059a45d1a63f9218cdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sparshgupta/Desktop/Notes-App/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/sparshgupta/Desktop/Notes-App/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_372ad0fb59936e16dd68a7b58307ec8c8872ca7d/classes.dex" />
+    </item>
+
+</items>
